@@ -5,7 +5,7 @@ import pandas as pd
 
 # 1. SETUP
 # We use st.secrets for safety. We will set this in the Streamlit dashboard later.
-APIFY_TOKEN = st.secrets[APIFY_TOKEN]
+APIFY_TOKEN = st.secrets["APIFY_TOKEN"]
 target_accounts = ["cluttermycash", "getitcheaperwithsylvia", "micasa_ug"]
 
 st.set_page_config(page_title="UG TikTok Tracker", layout="centered")

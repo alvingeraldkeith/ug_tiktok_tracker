@@ -9,7 +9,7 @@ APIFY_TOKEN = st.secrets["APIFY_TOKEN"]
 target_accounts = ["cluttermycash", "getitcheaperwithsylvia", "micasa_ug"]
 
 st.set_page_config(page_title="UG TikTok Tracker", layout="centered")
-st.title("🇺🇬 UG Niche Tracker")
+st.title("Declutter accounts  Tracker uganda  ")
 
 if st.button('🔄 Refresh Data'):
     client = ApifyClient(APIFY_TOKEN)

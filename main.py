@@ -6,7 +6,7 @@ import pandas as pd
 # 1. SETUP
 # Ensure "APIFY_TOKEN" is set in your Streamlit Cloud Secrets
 APIFY_TOKEN = st.secrets["APIFY_TOKEN"]
-target_accounts = ["cluttermycash", "getitcheaperwithsylvia", "micasa_ug"]
+target_accounts = ["cashmyclutter", "getitcheaperwithsylvia", "Mi.CASA UG","saleitug","market.access.ug"]
 
 st.set_page_config(page_title="UG TikTok Tracker", layout="centered")
 st.title("Declutter accounts  Tracker uganda  ")
